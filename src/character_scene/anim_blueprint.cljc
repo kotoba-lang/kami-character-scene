@@ -21,7 +21,7 @@
   Depends on `kotoba-lang/scene` (tolerant EDN accessors) only —
   `character.anim-blueprint` is a read-only oracle used by tests, not
   by this namespace's runtime logic."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [scene :as scene]))
 
 ;; --- shipped EDN -----------------------------------------------------------------------
