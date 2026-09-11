@@ -5,7 +5,7 @@
 ;; so the values here are the RESOLVED fields (the fields a builder omits are the
 ;; `HairStyle::default()` values — `:head-radius 0.09` / `:head-center-y 1.43` for
 ;; all five). These are parity-tested == the compiled-in oracle in
-;; test/character_scene_test.cljc.
+;; test/character_scene_test.cljk.
 ;;
 ;; :style is a HairType keyword id (:straight / :wavy / :curly / :afro / :braided).
 ;; Colours are [r g b]. All keys hyphenated (the loader maps to the struct fields).
