@@ -75,7 +75,7 @@ portability).
 
 ## Tests
 
-24 tests / 89 assertions, 0 failures, 0 errors (`clojure -M:test`).
+24 tests / 89 assertions, 0 failures, 0 errors (`kbb -M:test`).
 
 Every applicable original Rust `#[test]` (from `src/lib.rs`,
 `src/face_rig.rs`, `src/anim_blueprint.rs`, `tests/face_rig_parity.rs`,
