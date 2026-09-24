@@ -7,7 +7,7 @@
   transcribed)."
   (:require [character-scene.anim-blueprint :as ab]
             [character.anim-blueprint :as char-ab]
-            [clojure.test :refer [deftest is testing]]))
+            [kotoba.test :refer [deftest is testing]]))
 
 ;; --- ported from anim_blueprint.rs `#[cfg(test)]` -----------------------------------------
 

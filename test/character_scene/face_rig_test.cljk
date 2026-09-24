@@ -6,7 +6,7 @@
   transcribed)."
   (:require [character-scene.face-rig :as face-rig]
             [character.control-rig :as control-rig]
-            [clojure.test :refer [deftest is testing]]))
+            [kotoba.test :refer [deftest is testing]]))
 
 ;; --- ported from face_rig.rs `#[cfg(test)]` ----------------------------------------------
 
