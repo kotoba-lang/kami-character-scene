@@ -6,7 +6,7 @@
   (:require [character-scene :as cs]
             [character-scene.face-rig]
             [character-scene.anim-blueprint]
-            [clojure.test :refer [deftest is testing]]))
+            [kotoba.test :refer [deftest is testing]]))
 
 (deftest namespace-loads-smoke-test
   (testing "root namespace and both submodules load and resolve"
